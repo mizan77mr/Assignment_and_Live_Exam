@@ -37,13 +37,14 @@ Student(this.studentId,this.grade,this.courseScores):super('John Doe',20,'123 Ma
   print('Role:Student');
 }
 
+ double calculateAverageScore() {
+    double sum = 0.0;
+    for (double score in courseScores) {
+      sum += score;
+    }
+    return sum / courseScores.length;
+  }
 
-  double calculateAverageScore() {
-    if (courseScores.isEmpty) return 0.0;
-    double total = courseScores.reduce((a, b) => a + b);
-    return total / courseScores.length;
-
-}
 }
 
 
