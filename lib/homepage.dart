@@ -25,14 +25,17 @@ class _HomePageState extends State<HomePage> {
                 child: Column(
               children: [
                 TextFormField(
+                  keyboardType: TextInputType.text,
                   decoration: InputDecoration(hintText: 'Name'),
                 ),
                 SizedBox(height: 10,),
                 TextFormField(
+                  keyboardType: TextInputType.number,
                   decoration: InputDecoration(hintText: 'Age'),
                 ),
                 SizedBox(height: 10,),
                 TextFormField(
+                  keyboardType: TextInputType.number,
                   decoration: InputDecoration(hintText: 'Salary'),
                 ),
               ],
