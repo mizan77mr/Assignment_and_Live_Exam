@@ -1,0 +1,2 @@
+C:/Users/Mizan/Documents/Flutter Practies/api/android/app/.cxx/Debug/64l522t3/x86/CMakeFiles/edit_cache.dir
+C:/Users/Mizan/Documents/Flutter Practies/api/android/app/.cxx/Debug/64l522t3/x86/CMakeFiles/rebuild_cache.dir
